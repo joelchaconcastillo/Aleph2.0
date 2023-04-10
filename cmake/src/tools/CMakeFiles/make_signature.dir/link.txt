@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3  -rdynamic CMakeFiles/make_signature.dir/make_signature.cc.o  -o ../../tools/make_signature 

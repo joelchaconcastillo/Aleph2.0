@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3  -rdynamic CMakeFiles/random_stratified_graphs.dir/random_stratified_graphs.cc.o  -o ../../tools/random_stratified_graphs 

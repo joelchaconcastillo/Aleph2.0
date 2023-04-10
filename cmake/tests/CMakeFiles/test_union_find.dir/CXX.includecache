@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/aleph/topology/UnionFind.hh
+algorithm
+-
+unordered_map
+-
+unordered_set
+-
+
+../tests/Base.hh
+iostream
+-
+stdexcept
+-
+string
+-
+
+/home/jcc/Aleph2.0/tests/test_union_find.cc
+tests/Base.hh
+-
+aleph/topology/UnionFind.hh
+-
+iterator
+-
+set
+-
+typeinfo
+-
+vector
+-
+

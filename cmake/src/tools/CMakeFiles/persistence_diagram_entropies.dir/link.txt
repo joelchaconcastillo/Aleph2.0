@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3  -rdynamic CMakeFiles/persistence_diagram_entropies.dir/persistence_diagram_entropies.cc.o  -o ../../tools/persistence_diagram_entropies 

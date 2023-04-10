@@ -1,0 +1,700 @@
+The system is: Linux - 5.8.0-43-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jcc/Aleph2.0/cmake/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2430f/fast && /usr/bin/make -f CMakeFiles/cmTC_2430f.dir/build.make CMakeFiles/cmTC_2430f.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2430f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2430f.dir/testCXXCompiler.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2430f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2430f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2430f.dir/testCXXCompiler.cxx.o  -o cmTC_2430f 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_590ae/fast && /usr/bin/make -f CMakeFiles/cmTC_590ae.dir/build.make CMakeFiles/cmTC_590ae.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cce95HiK.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o /tmp/cce95HiK.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_590ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590ae.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_590ae 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_590ae' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZvN3ee.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_590ae /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_590ae' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_590ae/fast && /usr/bin/make -f CMakeFiles/cmTC_590ae.dir/build.make CMakeFiles/cmTC_590ae.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cce95HiK.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o /tmp/cce95HiK.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_590ae]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590ae.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_590ae ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_590ae' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZvN3ee.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_590ae /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZvN3ee.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_590ae] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_590ae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test ALEPH_COMPILER_HAS_DIAGNOSTIC_PRAGMA succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0927b/fast && /usr/bin/make -f CMakeFiles/cmTC_0927b.dir/build.make CMakeFiles/cmTC_0927b.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0927b.dir/src.cxx.o
+/usr/bin/c++    -DALEPH_COMPILER_HAS_DIAGNOSTIC_PRAGMA   -o CMakeFiles/cmTC_0927b.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0927b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0927b.dir/link.txt --verbose=1
+/usr/bin/c++   -DALEPH_COMPILER_HAS_DIAGNOSTIC_PRAGMA    -rdynamic CMakeFiles/cmTC_0927b.dir/src.cxx.o  -o cmTC_0927b 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Wextra\"")
+  int main( int, char** )
+  {
+    return 0;
+  }
+  _Pragma("GCC diagnostic pop")
+  
+Performing C++ SOURCE FILE Test ALEPH_COMPILER_HAS_REGEX_TOKEN_ITERATOR succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9b42d/fast && /usr/bin/make -f CMakeFiles/cmTC_9b42d.dir/build.make CMakeFiles/cmTC_9b42d.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b42d.dir/src.cxx.o
+/usr/bin/c++    -DALEPH_COMPILER_HAS_REGEX_TOKEN_ITERATOR   -o CMakeFiles/cmTC_9b42d.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9b42d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b42d.dir/link.txt --verbose=1
+/usr/bin/c++   -DALEPH_COMPILER_HAS_REGEX_TOKEN_ITERATOR    -rdynamic CMakeFiles/cmTC_9b42d.dir/src.cxx.o  -o cmTC_9b42d 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+  #include <regex>
+
+  int main( int, char** )
+  {
+    std::sregex_token_iterator t;
+    return 0;
+  }
+  
+Performing C++ SOURCE FILE Test ALEPH_COMPILER_HAS_ATTRIBUTE_DEPRECATED succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6eaed/fast && /usr/bin/make -f CMakeFiles/cmTC_6eaed.dir/build.make CMakeFiles/cmTC_6eaed.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6eaed.dir/src.cxx.o
+/usr/bin/c++    -DALEPH_COMPILER_HAS_ATTRIBUTE_DEPRECATED   -o CMakeFiles/cmTC_6eaed.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx:10:14: warning: ‘int f()’ is deprecated [-Wdeprecated-declarations]
+   10 |     return f();
+      |              ^
+/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx:3:7: note: declared here
+    3 |   int f()
+      |       ^
+/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx:10:14: warning: ‘int f()’ is deprecated [-Wdeprecated-declarations]
+   10 |     return f();
+      |              ^
+/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx:3:7: note: declared here
+    3 |   int f()
+      |       ^
+Linking CXX executable cmTC_6eaed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eaed.dir/link.txt --verbose=1
+/usr/bin/c++   -DALEPH_COMPILER_HAS_ATTRIBUTE_DEPRECATED    -rdynamic CMakeFiles/cmTC_6eaed.dir/src.cxx.o  -o cmTC_6eaed 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+  int f() __attribute__((deprecated));
+  int f()
+  {
+    return 42;
+  }
+
+  int main( int, char** )
+  {
+    return f();
+  }
+  
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wall succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0019b/fast && /usr/bin/make -f CMakeFiles/cmTC_0019b.dir/build.make CMakeFiles/cmTC_0019b.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0019b.dir/src.cxx.o
+/usr/bin/c++    -DALEPH_HAVE_FLAG_Wall   -Wall -o CMakeFiles/cmTC_0019b.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0019b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0019b.dir/link.txt --verbose=1
+/usr/bin/c++   -DALEPH_HAVE_FLAG_Wall    -rdynamic CMakeFiles/cmTC_0019b.dir/src.cxx.o  -o cmTC_0019b 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wconversion succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5d3e/fast && /usr/bin/make -f CMakeFiles/cmTC_e5d3e.dir/build.make CMakeFiles/cmTC_e5d3e.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5d3e.dir/src.cxx.o
+/usr/bin/c++    -Wall -DALEPH_HAVE_FLAG_Wconversion   -Wconversion -o CMakeFiles/cmTC_e5d3e.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e5d3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5d3e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -DALEPH_HAVE_FLAG_Wconversion    -rdynamic CMakeFiles/cmTC_e5d3e.dir/src.cxx.o  -o cmTC_e5d3e 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wextra succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46b45/fast && /usr/bin/make -f CMakeFiles/cmTC_46b45.dir/build.make CMakeFiles/cmTC_46b45.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46b45.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -DALEPH_HAVE_FLAG_Wextra   -Wextra -o CMakeFiles/cmTC_46b45.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46b45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b45.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wconversion -DALEPH_HAVE_FLAG_Wextra    -rdynamic CMakeFiles/cmTC_46b45.dir/src.cxx.o  -o cmTC_46b45 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wnon-virtual-dtor succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96881/fast && /usr/bin/make -f CMakeFiles/cmTC_96881.dir/build.make CMakeFiles/cmTC_96881.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96881.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -DALEPH_HAVE_FLAG_Wnon-virtual-dtor   -Wnon-virtual-dtor -o CMakeFiles/cmTC_96881.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_96881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96881.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wconversion -Wextra -DALEPH_HAVE_FLAG_Wnon-virtual-dtor    -rdynamic CMakeFiles/cmTC_96881.dir/src.cxx.o  -o cmTC_96881 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wold-style-cast succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a673/fast && /usr/bin/make -f CMakeFiles/cmTC_7a673.dir/build.make CMakeFiles/cmTC_7a673.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a673.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -DALEPH_HAVE_FLAG_Wold-style-cast   -Wold-style-cast -o CMakeFiles/cmTC_7a673.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_7a673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a673.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wconversion -Wextra -Wnon-virtual-dtor -DALEPH_HAVE_FLAG_Wold-style-cast    -rdynamic CMakeFiles/cmTC_7a673.dir/src.cxx.o  -o cmTC_7a673 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Woverloaded-virtual succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04974/fast && /usr/bin/make -f CMakeFiles/cmTC_04974.dir/build.make CMakeFiles/cmTC_04974.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04974.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -DALEPH_HAVE_FLAG_Woverloaded-virtual   -Woverloaded-virtual -o CMakeFiles/cmTC_04974.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_04974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04974.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -DALEPH_HAVE_FLAG_Woverloaded-virtual    -rdynamic CMakeFiles/cmTC_04974.dir/src.cxx.o  -o cmTC_04974 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_pedantic succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f8ca/fast && /usr/bin/make -f CMakeFiles/cmTC_5f8ca.dir/build.make CMakeFiles/cmTC_5f8ca.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f8ca.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -DALEPH_HAVE_FLAG_pedantic   -pedantic -o CMakeFiles/cmTC_5f8ca.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5f8ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f8ca.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -DALEPH_HAVE_FLAG_pedantic    -rdynamic CMakeFiles/cmTC_5f8ca.dir/src.cxx.o  -o cmTC_5f8ca 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e81d/fast && /usr/bin/make -f CMakeFiles/cmTC_2e81d.dir/build.make CMakeFiles/cmTC_2e81d.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -v   -o CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jcc/Aleph2.0/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpedantic -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuiclgm.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
+COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o /tmp/ccuiclgm.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_2e81d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e81d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -v    -rdynamic CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o  -o cmTC_2e81d  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_2e81d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc66XKFM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2e81d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_2e81d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_2e81d/fast && /usr/bin/make -f CMakeFiles/cmTC_2e81d.dir/build.make CMakeFiles/cmTC_2e81d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -v   -o CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jcc/Aleph2.0/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpedantic -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuiclgm.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o /tmp/ccuiclgm.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_2e81d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e81d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -v    -rdynamic CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o  -o cmTC_2e81d  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wconversion' '-Wextra' '-Wnon-virtual-dtor' '-Wold-style-cast' '-Woverloaded-virtual' '-Wpedantic' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_2e81d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc66XKFM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2e81d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc66XKFM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2e81d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_2e81d.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_O3 succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2644d/fast && /usr/bin/make -f CMakeFiles/cmTC_2644d.dir/build.make CMakeFiles/cmTC_2644d.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2644d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -DALEPH_HAVE_FLAG_O3   -O3 -o CMakeFiles/cmTC_2644d.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2644d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2644d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -DALEPH_HAVE_FLAG_O3    -rdynamic CMakeFiles/cmTC_2644d.dir/src.cxx.o  -o cmTC_2644d 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_CXX14 succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c1ea/fast && /usr/bin/make -f CMakeFiles/cmTC_6c1ea.dir/build.make CMakeFiles/cmTC_6c1ea.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c1ea.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3 -DALEPH_HAVE_FLAG_CXX14   -std=c++14 -o CMakeFiles/cmTC_6c1ea.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6c1ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c1ea.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3 -DALEPH_HAVE_FLAG_CXX14    -rdynamic CMakeFiles/cmTC_6c1ea.dir/src.cxx.o  -o cmTC_6c1ea 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Og succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2edaa/fast && /usr/bin/make -f CMakeFiles/cmTC_2edaa.dir/build.make CMakeFiles/cmTC_2edaa.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2edaa.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -DALEPH_HAVE_FLAG_Og   -Og -o CMakeFiles/cmTC_2edaa.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2edaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2edaa.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -DALEPH_HAVE_FLAG_Og    -rdynamic CMakeFiles/cmTC_2edaa.dir/src.cxx.o  -o cmTC_2edaa 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_g succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e43a1/fast && /usr/bin/make -f CMakeFiles/cmTC_e43a1.dir/build.make CMakeFiles/cmTC_e43a1.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e43a1.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -Og -DALEPH_HAVE_FLAG_g   -g -o CMakeFiles/cmTC_e43a1.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e43a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e43a1.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -Og -DALEPH_HAVE_FLAG_g    -rdynamic CMakeFiles/cmTC_e43a1.dir/src.cxx.o  -o cmTC_e43a1 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Werror succeeded with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d8f4/fast && /usr/bin/make -f CMakeFiles/cmTC_4d8f4.dir/build.make CMakeFiles/cmTC_4d8f4.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d8f4.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -Og -g -Wall -Wextra -DALEPH_HAVE_FLAG_Werror   -Werror -o CMakeFiles/cmTC_4d8f4.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4d8f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d8f4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -Og -g -Wall -Wextra -DALEPH_HAVE_FLAG_Werror    -rdynamic CMakeFiles/cmTC_4d8f4.dir/src.cxx.o  -o cmTC_4d8f4 
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

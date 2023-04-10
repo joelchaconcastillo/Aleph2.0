@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3  -rdynamic CMakeFiles/persistent_spines.dir/persistent_spines.cc.o  -o ../../tools/persistent_spines 

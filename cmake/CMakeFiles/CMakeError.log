@@ -1,0 +1,30 @@
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wself-init failed with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e578b/fast && /usr/bin/make -f CMakeFiles/cmTC_e578b.dir/build.make CMakeFiles/cmTC_e578b.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e578b.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -DALEPH_HAVE_FLAG_Wself-init   -Wself-init -o CMakeFiles/cmTC_e578b.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wself-init'
+make[1]: *** [CMakeFiles/cmTC_e578b.dir/build.make:66: CMakeFiles/cmTC_e578b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e578b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALEPH_HAVE_FLAG_Wunsafe-loop-optimization failed with the following output:
+Change Dir: /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1885e/fast && /usr/bin/make -f CMakeFiles/cmTC_1885e.dir/build.make CMakeFiles/cmTC_1885e.dir/build
+make[1]: Entering directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1885e.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -DALEPH_HAVE_FLAG_Wunsafe-loop-optimization   -Wunsafe-loop-optimization -o CMakeFiles/cmTC_1885e.dir/src.cxx.o -c /home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wunsafe-loop-optimization'; did you mean '-Wunsafe-loop-optimizations'?
+make[1]: *** [CMakeFiles/cmTC_1885e.dir/build.make:66: CMakeFiles/cmTC_1885e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jcc/Aleph2.0/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1885e/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

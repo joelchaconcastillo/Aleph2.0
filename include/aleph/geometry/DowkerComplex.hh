@@ -126,7 +126,7 @@ template <class Matrix, class T> std::vector< detail::Pair<T> > admissiblePairs(
   {
     for( IndexType j = 0; j < n; j++ )
     {
-      if( D[i][j] <= R )
+      if( D[i][j] <= R )  ////TODO:   this condition needs to change in order to take into account lands and witness
         pairs.push_back( {i, j, static_cast<T>( D[i][j] ) } );
     }
   }
@@ -283,7 +283,7 @@ template
   class VertexType,
   class DataType
 > topology::SimplicialComplex< topology::Simplex<DataType, VertexType> >
-    buildDowkerSourceCompplex( const Matrix& matrix,
+    buildDowkerSourceComplex( const Matrix& matrix,
                                DataType epsilon,
                                unsigned dimension = 0 )
 {

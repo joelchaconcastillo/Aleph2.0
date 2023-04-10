@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/aleph/config/Eigen.hh
+
+../include/aleph/math/PrincipalComponentAnalysis.hh
+aleph/config/Eigen.hh
+-
+Eigen/Core
+-
+Eigen/SVD
+-
+vector
+-
+cmath
+-
+
+../tests/Base.hh
+iostream
+-
+stdexcept
+-
+string
+-
+
+/home/jcc/Aleph2.0/tests/test_principal_component_analysis.cc
+tests/Base.hh
+-
+aleph/config/Eigen.hh
+-
+aleph/math/PrincipalComponentAnalysis.hh
+-
+algorithm
+-
+iterator
+-
+vector
+-
+cmath
+-
+

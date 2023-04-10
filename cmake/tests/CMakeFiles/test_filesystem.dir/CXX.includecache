@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/aleph/utilities/Filesystem.hh
+libgen.h
+-
+paths.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/stat.h
+-
+fstream
+-
+utility
+-
+
+../tests/Base.hh
+iostream
+-
+stdexcept
+-
+string
+-
+
+/home/jcc/Aleph2.0/tests/test_filesystem.cc
+tests/Base.hh
+-
+aleph/utilities/Filesystem.hh
+-
+fstream
+-
+

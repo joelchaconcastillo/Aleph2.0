@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3  -rdynamic CMakeFiles/multi_scale_skeleton.dir/multi_scale_skeleton.cc.o  -o ../../tools/multi_scale_skeleton 

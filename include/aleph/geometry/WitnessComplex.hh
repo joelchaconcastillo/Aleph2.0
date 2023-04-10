@@ -132,14 +132,14 @@ template <
   Distance dist;
   Traits traits;
 
-  for( std::size_t j = 0; j < N; j++ )
+  for( std::size_t j = 0; j < N; j++ ) //for each point "witness"
   {
     std::vector<DataType> distances;
     distances.reserve( n );
 
     auto&& point = container[j];
 
-    for( std::size_t i = 0; i < n; i++ )
+    for( std::size_t i = 0; i < n; i++ ) //for each landmark
     {
       auto&& landmark = container[ landmarkIndices.at(i) ];
 
@@ -157,12 +157,12 @@ template <
 
   if( nu != 0 )
   {
-    for( std::size_t col = 0; col < N; col++ )
+    for( std::size_t col = 0; col < N; col++ ) //sort landmarks for each point..
     {
       std::vector<DataType> column = D[col];
 
       std::nth_element( column.begin(), column.begin() + nu - 1, column.end() );
-      smallest[col] = column.at( nu - 1 );
+      smallest[col] = column.at( nu - 1 );  // N x n
     }
   }
 
@@ -175,17 +175,17 @@ template <
 
   aleph::math::SymmetricMatrix<DataType> M( n );
 
-  for( std::size_t i = 0; i < n; i++ )
+  for( std::size_t i = 0; i < n; i++ ) //for each landmark
   {
     simplices.push_back( Simplex( static_cast<VertexType>(i) ) );
 
-    for( std::size_t j = i+1; j < n; j++ )
+    for( std::size_t j = i+1; j < n; j++ ) //for each landmark
     {
       auto min = std::numeric_limits<DataType>::max();
 
-      for( std::size_t k = 0; k < N; k++ )
+      for( std::size_t k = 0; k < N; k++ ) //for each point
       {
-        if( std::max( D[k][i], D[k][j] ) <= R + smallest.at(k) )
+        if( std::max( D[k][i], D[k][j] ) <= R + smallest.at(k) ) //although it compares by pairs cuz its only for edges!
           min = std::min( min, std::max( D[k][i], D[k][j] ) );
       }
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wconversion -Wextra -Wnon-virtual-dtor -Wold-style-cast -Woverloaded-virtual -pedantic -fopenmp -O3  -rdynamic CMakeFiles/stratified_graph_analysis.dir/stratified_graph_analysis.cc.o  -o ../../tools/stratified_graph_analysis 

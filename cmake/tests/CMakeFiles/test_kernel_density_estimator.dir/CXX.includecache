@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/aleph/math/KernelDensityEstimator.hh
+functional
+-
+iterator
+-
+numeric
+-
+type_traits
+-
+cmath
+-
+
+../tests/Base.hh
+iostream
+-
+stdexcept
+-
+string
+-
+
+/home/jcc/Aleph2.0/tests/test_kernel_density_estimator.cc
+tests/Base.hh
+-
+aleph/math/KernelDensityEstimator.hh
+-
+vector
+-
+
